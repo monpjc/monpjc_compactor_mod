@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "compactor_mod",
+  "version": "${version}",
+  "name": "Monpjc Compactor Mod",
+  "description": "Simple Mod that allow the compacting of items togetter",
+  "authors": [
+    "Monpjc"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/monpjcs-carbon-steel",
+    "sources": "https://www.curseforge.com/minecraft/mc-mods/monpjcs-carbon-steel",
+    "issues": "https://www.curseforge.com/minecraft/mc-mods/monpjcs-carbon-steel"
+  },
+
+  "license": "MIT",
+  "icon": "assets/compactor_mod/icon/icon.png",
+  "custom": {
+    "modmenu": {
+      "links": {
+        "Website for Monpjc": "https://www.monpjc.com",
+        "Monpjc's Discord": "https://discord.gg/HgUzss4"
+      }
+    }
+  },
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.monpjc.compactor_mod.CompactorMod"
+    ],
+    "client": [
+      "com.monpjc.compactor_mod.ComaptorModClient"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
