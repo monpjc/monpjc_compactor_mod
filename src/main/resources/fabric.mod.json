@@ -29,7 +29,7 @@
       "com.monpjc.compactor_mod.CompactorMod"
     ],
     "client": [
-      "com.monpjc.compactor_mod.ComaptorModClient"
+      "com.monpjc.compactor_mod.CompactorModClient"
     ]
   },
 

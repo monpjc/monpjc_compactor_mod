@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "compactor_mod:block/compactor_block" }
+  }
+}
